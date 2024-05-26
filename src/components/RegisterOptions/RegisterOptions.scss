@@ -1,0 +1,43 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+
+    .register-header{
+        background: linear-gradient(to right, #0B151B, #519C3C);
+        text-align: center;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+
+        h5{
+            padding: 10px;
+        }
+        
+    }
+    .paraFree{
+         padding: 10px;
+         font-size: 20px;
+         color:  #519C3C;
+         text-align: center;   
+    }
+    .options{
+        padding: 10px 20px;
+    }
+
+    .optimal-choise{
+        background-color: #ff0000;
+        text-align: center;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+
+        h5{
+            padding: 10px;
+        }
+
+    }
+    .options-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end; 
+    }
+}

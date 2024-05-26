@@ -1,0 +1,92 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+
+.middle-section-users{
+    @extend %section;
+}
+
+.login-container-users{
+    @extend %wrap;
+    background-color: var.$background-color-primary;
+    border: 1px solid var.$text-color-primary;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Apply shadow to the bottom */
+    border-radius: 8px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      .steps-content{
+        padding: 80px ;
+
+        .users-header{
+            font-size: 32px;
+            padding: 20px 0;
+            text-align: center;
+        }
+      }
+}
+.bg-image{
+
+    .form-users{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+    
+        .label{
+            border: 1px solid var.$text-color-primary;
+            border-radius: 12px;
+            padding: 15px 20px;
+            margin-right: 20px;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+         
+            .input-user{
+              align-self: self-end;
+            }
+            .img-artist{
+             max-width: 50px;
+            }
+            .img-viewer{
+                max-width: 68px;
+            }
+         }
+    }
+
+    .forward-btns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 20px;
+
+        .btn-green{
+            margin-right: 25px;
+        }
+    }
+
+    /* Hide the default checkbox */
+  input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px; /* Set the width and height to create a circle */
+    height: 16px;
+    border: 2px solid var.$text-color-primary; /* White border */
+    border-radius: 50%; /* Make it a circle */
+    background-color: var.$background-color-primary; /* Black background */
+    outline: none; /* Remove the default focus outline */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  /* Style for checked state */
+  input[type="checkbox"]:checked {
+    background-color: var.$background-color-secondary; /* Change background color to white when checked */
+  }
+  
+  .label-checked{
+    border: 2px solid var.$background-color-secondary ; 
+  }
+  
+}
+

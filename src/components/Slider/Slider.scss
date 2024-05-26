@@ -1,0 +1,40 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+  
+.slider-container {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    white-space: nowrap; /* Ensure items stay in a single line */
+    scrollbar-width: none; /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hide the scrollbar in Internet Explorer */
+  }
+  
+  .slider-container::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar in WebKit browsers (Chrome, Safari) */
+  }
+  
+  .slider-track {
+    display: inline-flex; /* Use inline-flex to keep items in a single line */
+    cursor: grab; /* Change cursor to grab for dragging effect */
+    user-select: none; /* Disable text selection while dragging */
+  }
+  
+  .slider-item {
+    flex: 0 0 auto;
+    width: 200px; /* Adjust based on your design */
+    margin: 0 10px;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+    .slider-image:hover{
+      border: 3px solid var.$text-color-succsess ;
+      border-radius: 4px;
+    }
+
+  

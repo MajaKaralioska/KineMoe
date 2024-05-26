@@ -1,0 +1,45 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+
+.interests-content{
+    display: flex;
+    justify-content: center;
+
+    .interests-span {
+        background-color: var.$background-color-base;
+        color: var.$text-color-base;
+        text-align: center;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        line-height: 25px;
+    }
+}
+
+.interests {
+    .first-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .second-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+    }
+    .btn-interest{
+        border: 1px solid var.$text-color-primary;
+        color: var.$text-color-primary;
+        border-radius: 12px;
+        margin-right: 15px;
+        padding: 5px 25px;
+    }
+    .btn-interest:hover{
+        background-color: var.$background-color-danger;
+    }
+    .btn-sucsess{
+        background-color: var.$background-color-secondary;
+    }
+}

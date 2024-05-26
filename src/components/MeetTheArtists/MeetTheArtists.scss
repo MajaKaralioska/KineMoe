@@ -1,0 +1,23 @@
+@use '../../css/abstracts/mixins' as mix;
+@use '../../css/abstracts/variables' as var;
+
+.artists-container{
+    padding: 60px 30px;
+
+    .artists-header{
+        text-align: center;
+        h2{
+           color: var.$text-color-primary;
+           text-transform: uppercase;
+        }
+    }
+
+    .artist-non-desctop-visible{
+        display: none;
+        @include mix.mobile-l-styles {
+            display: inline-block;
+          }
+
+    }
+
+}

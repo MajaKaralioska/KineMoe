@@ -1,0 +1,41 @@
+@use '../../css/abstracts/variables' as var;
+
+.rooms-first-row{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 200px;
+
+    .room {
+        .img-container {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+           
+            img{
+                max-width: 100px;
+                margin-left: -40px;
+            }
+        }
+    }
+}
+.rooms-second-row{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+
+    .room {
+        .img-container {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+           
+            img{
+                max-width: 100px;
+                margin-left: -40px;
+            }
+        }
+    }
+   
+}

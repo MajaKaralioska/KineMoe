@@ -1,0 +1,114 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+
+.item-overview-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var.$text-color-primary;
+   
+  
+    .overview-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 30px 0;
+  
+      @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  
+    .overview-details {
+      padding: 10px 30px;
+      flex-grow: 1;
+  
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+  
+      .media-para {
+        margin-bottom: 0;
+        text-align: justify;
+      }
+  
+      .media-span {
+        color: var.$text-color-succsess;
+        cursor: pointer;
+        display: inline-block;
+        margin-top: 10px;
+      }
+  
+      .overview-options {
+        display: flex;
+        align-items: center;
+        justify-content: left; /* Optional: Center the icons horizontally */
+        padding: 20px 0;
+  
+        .btn-watch {
+          margin-right: 10px;
+          display: flex;
+          align-items: center;
+  
+          .play {
+            margin-right: 5px;
+          }
+        }
+  
+        .ft-icon {
+          font-size: medium;
+          margin: 0 10px;
+        }
+  
+        .volume {
+          margin-left: auto;
+        }
+      }
+    }
+  
+    .overview-image {
+      display: flex;
+      justify-content: end;
+      flex-shrink: 0;
+      width: 50%; /* Ensure the image takes up 50% of the container width */
+  
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 300px; /* Set maximum height as needed */
+        object-fit: contain; /* Ensure the image fits within the container without distortion */
+  
+        @media (max-width: 768px) {
+          width: 100%; /* Ensure image scales properly on smaller screens */
+          max-width: 100%; /* Ensure image scales properly on smaller screens */
+        }
+      }
+    }
+  }
+  
+  .media-details {
+    display: flex;
+    padding: 10px 30px;
+    color: var.$text-color-primary;
+
+    @include mix.mobile-l-styles {
+       flex-direction: column;// Adjusted for mobile screens
+      }
+  
+    .media-details-content {
+      flex-basis: 33%;
+      padding: 20px 0;
+  
+      @include mix.mobile-l-styles {
+        flex-basis: 100%; // Adjusted for mobile screens
+      }
+    }
+  }
+  .cast{
+    text-decoration: none;
+    color:var.$text-color-primary;
+    ;
+  }

@@ -1,0 +1,112 @@
+.video-wrapper {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+  
+    video {
+      width: 100%;
+      height: auto;
+    }
+  
+    .controls {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+  
+      button {
+        padding: 5px 10px;
+        margin-right: 5px;
+        border: none;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  
+    .comments {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none; // Allows clicks to pass through to the video controls
+  
+      .comment-box {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        max-width: 80%;
+        pointer-events: auto; // Allows interaction with comments
+  
+        &.show {
+          animation: fadeIn 0.5s forwards, fadeOut 0.5s 4.5s forwards;
+        }
+  
+        &.hide {
+          display: none;
+        }
+      }
+    }
+  
+    .comment-form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .input-comment {
+        padding: 8px;
+        color: #000000;
+        width: 90%;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+  
+        &:focus {
+          border-color: #007bff;
+          outline: none;
+        }
+      }
+  
+      .submit-comment {
+        padding: 8px 20px;
+        border: none;
+        border-radius: 8px;
+        background-color: #28a745;
+  
+        &:hover {
+          background-color: #218838;
+        }
+      }
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  
+  
+  
+  

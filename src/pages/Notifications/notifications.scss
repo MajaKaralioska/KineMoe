@@ -1,0 +1,16 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+
+.checkboxes-forms{
+    display: flex;
+    padding: 15px 0;
+
+    .notification-label{
+        align-self: center;
+        margin-left: 15px;
+    }
+}
+
+.input-notification{
+   margin-right: 10px;
+}

@@ -1,0 +1,81 @@
+@use "./variables" as var;
+@use 'sass:math';
+
+%section {
+  padding-top: (var.$gutter-base * 2);
+  padding-bottom: (var.$gutter-base * 2);
+
+  @media (max-width: 768px) {
+    padding-top: (var.$gutter-base);
+    padding-bottom: (var.$gutter-base);
+  }
+}
+
+
+%wrap {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding-left: math.div(var.$gutter-base, 2);
+    padding-right: math.div(var.$gutter-base, 2);
+  }
+}
+
+@mixin tablet-styles {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile-l-styles {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+
+@mixin mobile-m-styles {
+  @media (max-width: 375px) {
+    @content;
+  }
+}
+
+@mixin mobile-s-styles {
+  @media (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin hoverText($text) {
+  position: relative;
+
+  &:hover::after {
+    content: $text;
+    position: absolute;
+    bottom: -20px; // Adjust as needed
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7); // Adjust background color as needed
+    color: #fff; // Adjust text color as needed
+    padding: 5px 10px; // Adjust padding as needed
+    border-radius: 5px; // Adjust border radius as needed
+    font-size: 12px; // Adjust font size as needed
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+}
+
+@mixin hoverAnimation {
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.2); // Adjust scale as needed
+  }
+}

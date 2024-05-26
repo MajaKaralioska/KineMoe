@@ -1,0 +1,43 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+
+.profile-setup{
+    padding-top: 15px;
+
+    .form-info-setup{
+        .form-input{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.login-container-users{
+    display: flex;
+    flex-direction: column;
+}
+  .profileIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .profile{
+    text-align: left;
+    
+  }
+
+  .profileIcon {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes it circular */
+    overflow: hidden; /* Hides overflowing parts of the image */
+    margin-right: 100px ;
+}
+
+.profileIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+  

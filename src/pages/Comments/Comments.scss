@@ -1,0 +1,70 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+
+.comments-wrap{
+    width: 90%;
+    margin-left: auto;
+    padding: 30px 10px;
+}
+
+.read-comment{
+    border: 1px solid var.$text-color-primary;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.comment-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+    .left-cont{
+        display: flex;
+        align-items: center;
+    }
+    .cont-para{
+        align-self: center;
+        p{
+            margin-bottom: 0;
+            margin-left: 15px;
+        }
+    }
+}
+
+.img-cont {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border-radius: 50%;
+  }
+  
+  .img-cont img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Ensures the image is circular */
+  }
+  .user-comment-main{
+    background-color: var.$background-color-base;
+    color: var.$text-color-base;
+    padding: 5px 10px;
+    border: 1px solid var.$text-color-base;
+    border-radius: 12px;
+  }
+
+  .form-leave-comment{
+    padding: 20px 10px;
+    width: 100%;
+
+    .input-comment{
+        width: 100%;
+        padding: 5px 10px;
+        border: 1px solid var.$text-color-base;
+        border-radius: 12px;
+    }
+  }
+
+  .existing-comments{
+    background-color: var.$background-color-base;
+    color: var.$text-color-base;
+    padding: 5px 10px;
+    border: 1px solid var.$text-color-base;
+    border-radius: 12px;
+  }

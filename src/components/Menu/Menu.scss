@@ -1,0 +1,112 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+.menu {
+    position: fixed; /* Fix the menu to the left side of the screen */
+    left: 0; /* Align to the left */
+    top: 0; /* Align to the top */
+    width: 10%; /* Set the width of the menu */
+    min-height: 100vh; /* Full height to match the viewport */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 9999; /* Ensure the menu is above other content */
+    display: flex; /* Use flexbox for vertical alignment */
+    flex-direction: column; /* Stack icons vertically */
+    align-items: center; /* Center icons horizontally */
+    padding-top: 20px; /* Add some padding to the top */
+}
+
+.menu a {
+    color: white; /* Icon color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 5px 0; /* Space between icons */
+    font-size: 20px; /* Adjust icon size */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+
+    img{
+        width: 100px;
+    }
+}
+
+.menu a:hover {
+    color: #f0f0f0; /* Lighter color on hover */
+}
+.profile-page-link{
+    @include mix.hoverText("Profile");
+}
+.home-page-link{
+    @include mix.hoverText("Home");
+}
+.rooms-page-link{
+    @include mix.hoverText("Rooms");
+}
+.chat-page-link{
+    @include mix.hoverText("Chat");
+}
+.movieHall-page-link{
+    @include mix.hoverText("Movie Hall");
+}
+.settings-page-link{
+    @include mix.hoverText("Settings");
+}
+.menu .logOut{
+    color: white
+}
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+    .menu {
+        width: 20%; /* Adjust menu width for smaller screens */
+    }
+
+    .menu a {
+        font-size: 20px; /* Adjust icon size for smaller screens */
+    }
+}
+
+.btn.rooms-page-link {
+    position: relative;
+    
+    img {
+      // Your image styles...
+      @include mix.hoverAnimation; // Apply hover animation to the image
+    }
+  
+    @include mix.hoverText("Rooms"); // Apply hover text
+  
+    // Define dropdown menu styles
+    .dropdown-menu {
+      position: absolute;
+      top: 0; // Align top edges
+      left: 100%; // Position to the right of the button
+      margin-left: 10px; // Adjust as needed to add space between button and menu
+      background-color: #fff; // Adjust background color as needed
+      border: 1px solid #ccc; // Adjust border as needed
+      border-radius: 5px; // Adjust border radius as needed
+      padding: 10px;
+      display: none;
+      z-index: 9997;
+      display: flex; // Arrange items in a row
+      gap: 10px; // Space between items
+  
+      &.show {
+        display: flex; // Ensure it's flex when shown
+      }
+  
+      .dropdown-item {
+        padding: 5px;
+        cursor: pointer;
+  
+        img {
+          width: 50px;
+        }
+  
+        &:hover {
+          color: blue; // Adjust hover color as needed
+        }
+      }
+    }
+  }
+  
+  // Show dropdown menu on button click
+  .btn.rooms-page-link .dropdown-menu.show {
+    display: flex; // Ensure it's flex when shown
+  }
+  

@@ -1,0 +1,43 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+.moviesContent{
+    width: 90%;
+    margin-left: auto;
+    h4 {
+        padding: 12px;
+    }
+}
+
+.movies-room-header{
+    position: relative;
+     .movies-room-header-h2{
+        position: absolute;
+        left: 270px;
+        top: 40px;
+        z-index: 9996;
+        color: var.$text-color-primary;
+
+        @include mix.mobile-l-styles{
+            left: 100px;
+        }
+     }
+}
+
+.pagination{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+      .btn-pagination{
+        text-align: center;
+        background-color: var.$background-color-info;
+        color: var.$text-color-primary;
+        padding: 10px 50px;
+        border-radius: 15px;
+        margin-right: 80px;
+         @include mix.mobile-l-styles{
+            margin-right: 40px;
+         }
+      }
+}

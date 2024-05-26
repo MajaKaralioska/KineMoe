@@ -1,0 +1,84 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+
+.bg-image{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../../../public/images/general/popupBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    .middle-section{
+        @extend %section;
+    }
+
+    .login-container{
+        @extend %wrap;
+        display: flex;
+          
+        .login-content{
+            background-color: var.$background-color-primary;
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+
+        .input {
+            border: 1px solid var.$text-color-primary;
+            border-radius: 8px;
+            background-color: var.$background-color-primary;
+            padding: 10px;
+            margin-bottom: 10px;
+          
+            @include mix.mobile-l-styles {
+                padding: 5px;
+              }
+          }
+    }
+
+    .hr-wrap{
+        display: flex;
+        padding: 20px 25px;
+
+        .span-self{
+            margin: 0 10px;
+        }
+
+        .border-top{
+            border-top: 2px solid var.$text-color-primary;
+            margin-top: 15px;
+            width: 48%;
+        }
+    }
+    
+    .login-accounts{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 25px;
+
+        .login-btn {
+            border: 1px solid var.$text-color-primary;
+            color: var.$text-color-primary;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center; 
+          
+            .social-icon {
+              margin-right: 130px; 
+              font-size: 22px;
+            }
+            .fa-apple{
+                font-size: 26px;
+            }
+            .social-span{
+                text-align: center;
+            }
+          }
+
+          .create-btn{
+            color:var.$text-color-primary;
+          }
+          
+    }
+}

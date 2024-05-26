@@ -1,0 +1,43 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+
+.select-dropdown {
+    position: absolute;
+    right: 10%;
+    top: 35px;
+    display: flex;
+    flex-direction: row;
+    margin: 8px 0;
+    z-index: 9995;
+     @include mix.mobile-l-styles{
+          right: 33%;
+          top: 100px;
+     }
+
+   .search{
+    align-self: center;
+    margin-left: 10px;
+      .search-icon{
+        font-size: 22px;
+      }
+   }
+     
+    select {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        appearance: none;  // For removing default dropdown arrow for custom styling
+        background-color: transparent;
+        color: #ccc;
+        background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+
+        &:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            outline: none;
+        }
+    }
+}

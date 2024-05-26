@@ -1,0 +1,85 @@
+@use '../../css/abstracts/variables' as var;
+
+.bannerImg {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../../../public/images/general/Banner.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    .header-content{
+        text-align: center;
+        h1{
+            color: var.$text-color-primary;
+            text-transform: uppercase;
+        }
+        p{
+            color: var.$text-color-primary;
+        }
+    }
+
+    .signUpbtn{
+        background-color: var.$background-color-secondary ;
+        color: var.$text-color-primary;
+        padding: 10px 30px;
+        border-radius: 8px;
+    }
+
+    .images-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end; 
+        padding-top: 30px;
+    }
+    
+    .image-wrapper {
+        position: relative;
+        width: 20%; /* Adjust width of image wrapper */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Align IMDb content at the bottom */
+    
+        .imdb-content {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+    
+            .span-btn {
+                background-color: #ffd900;
+                color: #000000;
+                padding: 3px 10px;
+                border-radius: 6px;
+                font-weight: 600;
+            }
+            span{
+                font-size: smaller;
+            }
+            .span-imdb{
+                color: #ffd900;
+            }
+        }
+    }
+    
+    .img {
+        max-width: 100%;
+    }
+    .img-one, .img-seven{
+        height: 190px;
+    }
+
+    .img-two, .img-six{
+        height: 230px;
+    }
+
+    .img-three, .img-five{
+        height: 250px;
+    }
+
+    .img-four{
+        height: 280px;
+    }    
+}
+

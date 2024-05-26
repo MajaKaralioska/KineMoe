@@ -1,0 +1,50 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+.signup-accounts{
+    display: flex;
+    flex-direction: column;
+
+    .login-btn {
+        border: 1px solid var.$text-color-primary;
+        color: var.$text-color-primary;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center; 
+      
+        .social-icon {
+          margin-right: 130px; 
+          font-size: 22px;
+        }
+        .fa-apple{
+            font-size: 26px;
+        }
+        .social-span{
+            text-align: center;
+        }
+      }
+}
+
+.hr-wrap-register{
+    display: flex;
+    padding: 20px 0;
+
+    .span-self{
+        margin: 0 10px;
+    }
+
+    .border-top{
+        border-top: 2px solid var.$text-color-primary;
+        margin-top: 15px;
+        width: 48%;
+    }
+}
+
+.register-btn{
+    color: var.$text-color-primary;
+    text-decoration: none;
+    display: block;
+}
+
+input{
+    color: var.$text-color-primary
+}

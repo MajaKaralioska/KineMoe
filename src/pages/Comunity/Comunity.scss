@@ -1,0 +1,174 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+
+.community-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    .community-content {
+        width: 85%;
+        margin-left: auto;
+        padding: 20px 10px;
+        background-color: rgba(0, 0, 0, 0.6);
+
+        .community-header {
+            text-align: left;
+            color: var.$text-color-primary;
+            margin-bottom: 20px;
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+
+        .wrapper-community {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .form-community {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 20px;
+
+                .filter-icon {
+                    margin-right: 20px;
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+
+                .community-input {
+                    background-color: var.$background-color-primary;
+                    width: 500px;
+                    border: 1px solid var.$text-color-primary;
+                    border-radius: 8px;
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    padding: 10px;
+                }
+
+                .start-disc {
+                    .btn-green {
+        
+                        color: white;
+                        border: none;
+                        padding: 10px 20px;
+                        border-radius: 4px;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: darkgreen;
+                        }
+                    }
+                }
+            }
+
+            .comment-section {
+                width: 100%;
+
+                .comment-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    .comment {
+                        display: flex;
+                        align-items: center;
+                        background-color: rgba(255, 255, 255, 0.1);
+                        padding: 10px;
+                        border-radius: 4px;
+                        color: var(--text-color-primary);
+                        text-decoration: none;
+
+                        .img-container {
+                            margin-right: 10px;
+
+                            .img-user {
+                                width: 40px;
+                                height: 40px;
+                                border-radius: 50%;
+                            }
+                        }
+                        .user-coment{
+                            align-self: center;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.posts-header{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .community-content {
+        width: 95%;
+        padding: 10px;
+
+        .community-header {
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        .wrapper-community {
+            .form-community {
+                flex-direction: column;
+                align-items: flex-start;
+
+                .community-input {
+                    width: 100%;
+                    margin: 10px 0;
+                }
+
+                .start-disc {
+                    margin: 10px 0;
+
+                    .btn-green {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .comment-section {
+                .comment-wrapper {
+                    .comment {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+.vote-comment{
+    margin-left: auto ;
+}
+.form-community {
+
+    textarea {
+        width: 100%;
+        height: 100px; // Adjust height as needed
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid var.$text-color-primary;
+        border-radius: 8px;
+        resize: none; // Disable resizing
+        background-color: var.$background-color-primary;
+        color: var.$text-color-primary;
+        font-size: 14px;
+
+        &:focus {
+            outline: none;
+            border-color: darkgreen; // Example focus border color
+        }
+    }
+}

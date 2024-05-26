@@ -1,0 +1,26 @@
+@use '../../css/abstracts/variables' as var;
+@use '../../css/abstracts/mixins' as mix;
+
+.engagement-content{
+    display: flex;
+    justify-content: center;
+
+    .engagement-span {
+        background-color: var.$background-color-base;
+        color: var.$text-color-base;
+        text-align: center;
+        margin-right: 5px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        line-height: 25px;
+    }
+}
+
+.btn-icon{
+    margin-right: 5px;
+}
+
+.success:hover{
+    background-color: var.$background-color-danger;
+}

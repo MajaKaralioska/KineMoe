@@ -1,0 +1,1728 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "The Third half",
+      "description": "Dimitry hires German coach Rudolph Spitz to galvanize his ragtag team into the country's best football club, but then the first Nazi tanks roll in and Rebecca, a local banker's beautiful daughter, elopes with his star player.",
+      "image": "./images/movies/TheThirdHalf.png",
+      "release_date": "27/09/2012",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "1:53:00",
+      "category": "Movies",
+      "genres": [
+        "Sport",
+        "Drama",
+        "History",
+        "Romance"
+      ],
+      "director": [
+        "Darko Mitrevski"
+      ],
+      "writers": [
+        "Darko Mitrevski",
+        "Grgur Strujich"
+      ],
+      "producers": [
+        "Darko Mitrevski",
+        "Nualla Quinn-Barton",
+        "Jordy Niubo",
+        "Robert Naskov",
+        "Milivoje Dzordzevikj",
+        "Robert Jazadziski"
+      ],
+      "cast": [
+        "Katarina Ivanovska",
+        "Sahko Kocev",
+        "Richard Sammel"
+      ],
+      "editing": [
+        "Alois Fisharek",
+        "Dejan Boshkovikj"
+      ],
+      "cinematography": [
+        "Klaus Fuxjager"
+      ],
+      "costume_design": [
+        "Zaklina Krstevska",
+        "Ksenija Terzovic"
+      ],
+      "video": "link to video",
+      "rating": 7.4,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 4,
+          "comment": "A great movie!"
+        },
+        {
+          "user_id": 2001,
+          "rating": 5,
+          "comment": "One of the best movies I've seen."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Only Human",
+      "description": "ONLY HUMAN - Homo - stages 6 profiles in 6 sequences cleverly interwoven. A dramatic story       featuring desperate characters in their quest for survival and love, or redemption.",
+      "image": "./images/movies/HomoOnlyHuman.png",
+      "release_date": "24/09/2020",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "1:31:00",
+      "category": "Movies",
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Igor Ivanov izi"
+      ],
+      "writers": [
+        "Igor Ivanov Izi",
+        "Sasho Kokalanov"
+      ],
+      "producers": [
+        "Lumbardh Kukaj",
+        "Nikola Madich",
+        "Bojan Mastilovic",
+        "Miroslav Mogorovich",
+        "Tomi Salkovski",
+        "Galina Doneva"
+      ],
+      "cast": [
+        "Natasha Petkovic",
+        "Igor Angelov",
+        "Oliver Mitkovski"
+      ],
+      "editing": [
+        "Martin Ivanov"
+      ],
+      "cinematography": [
+        "Maja Radoshevich"
+      ],
+      "costume_design": [
+        "Polona Valentincich"
+      ],
+      "video": "link to video",
+      "rating": 7.2,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 4,
+          "comment": "A great movie!"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Jaz sem Frenk",
+      "description": "An unexpected inheritance from their father sparks a dispute between Frank, a rebel who still swears by old socialist values, and his brother Brane, a classic transition profiteer. While Frank is tracking the source of money, which his late father, one of the key protagonists of the Slovenian independence, made through shady dealings, Brane wants to lay claim to it through his lawyers and a network of his father’s “cronies”, who would even resort to mafia tactics if need be. Brane’s wife Ines, who has in fact loved Frank all along, finds herself caught between the two brothers once more.",
+      "image": "./images/movies/JazSemFrenk.png",
+      "release_date": "24/09/2019",
+      "country": [
+        "Slovenia",
+        "Serbia",
+        "North Macedonia"
+      ],
+      "duration": "1:38:00",
+      "category": "Movies",
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Metod Pevec"
+      ],
+      "writers": [
+        "Metod Pevac",
+        "Ivo Trajkov"
+      ],
+      "producers": [
+        "Danijel Hochevar"
+      ],
+      "cast": [
+        "Janez Škof",
+        "Valter Dragan",
+        "Katarina Čas",
+        "Mojca Partljič"
+      ],
+      "editing": [
+        "Jelena Maksimovich"
+      ],
+      "cinematography": [
+        "Marko Brdar"
+      ],
+      "costume_design": [
+        "Katya Hrobat"
+      ],
+      "video": "link to video",
+      "rating": 6.2,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 6,
+          "comment": "Intresting movie!"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Kino Ljubov / Cinema Love",
+      "description": "The film follows Mira, a lawyer in trouble, who plants a bomb under the car of her brother Stevo on the day when Macedonia declares the COVID-19 pandemic, in order to save the family from disintegration. The plot gradually reveals a game full of misunderstandings, love, and passion.",
+      "image": "./images/movies/KinoLjubov.png",
+      "release_date": "27/11/2022",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "1:23:00",
+      "category": "Movies",
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Jani Bojadzi"
+      ],
+      "writers": [
+        "Jani Bojadzi"
+      ],
+      "producers": [
+        "Jani Bojadzi"
+      ],
+      "cast": [
+        "Dejan Lilich",
+        "Jelena Zugic",
+        "Blagoja Corevski"
+      ],
+      "editing": [
+        "Jani Bojadzi"
+      ],
+      "cinematography": [
+        "Ivan Zoroski"
+      ],
+      "costume_design": [
+        "Aleksandra Popovska Gorchilova"
+      ],
+      "video": "link to video",
+      "rating": 7.5,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 6,
+          "comment": "Intresting movie!"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Makedonska Saga",
+      "description": "Damjan, a teacher, goes to a village and impresses everyone with his teaching abilities. He falls in love with a woman, but due to different religious beliefs, they are unable to be with each other.",
+      "image": "./images/movies/MakedonskaSaga.png",
+      "release_date": "19/10/1993",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "1:53:00",
+      "category": "Movies",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "director": [
+        "Branko Gapo"
+      ],
+      "writers": [
+        "Simon Dracul"
+      ],
+      "producers": [
+        "Stevan Acevski",
+        "Gjorgi Gjorgievski",
+        "Tome Molovski"
+      ],
+      "cast": [
+        "Kiril Pop Hristov",
+        "Biljana Tanevska",
+        "Meto Jovanovski"
+      ],
+      "editing": [
+        "Dimitar Grbevski"
+      ],
+      "cinematography": [
+        "Vladimir Samoilovski"
+      ],
+      "costume_design": [
+        "Danica Petrovska"
+      ],
+      "video": "link to video",
+      "rating": 7.4,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "Fantastic!"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Juzni Vetar",
+      "description": "A young member of an underground gang in Belgrade puts himself and his family in danger when he crosses a mafia leader who works for the chief of police.",
+      "image": "./images/movies/JuzniVetar.png",
+      "release_date": "25/08/2018",
+      "country": [
+        "Serbia"
+      ],
+      "duration": "1:53:00",
+      "category": "Movies",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Milosh Avramovic"
+      ],
+      "writers": [
+        "Milosh Avramovic",
+        "Petar Mihajlovic"
+      ],
+      "producers": [
+        "Milosh Avramovic",
+        "Milosh Bikovic",
+        "Zoran Cvetanovic",
+        "Tatjana Zezelj Djokovic",
+        "Miodrag Radojnic"
+      ],
+      "cast": [
+        "Milosh Bikovic",
+        "Miodrag Radonjic",
+        "Dragan Bjelogrlic"
+      ],
+      "editing": [
+        "Milena Predic",
+        "Lazar Predojev"
+      ],
+      "cinematography": [
+        "Ivan Kostic"
+      ],
+      "costume_design": [
+        "Jelena Djordzevic"
+      ],
+      "video": "link to video",
+      "rating": 7.9,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "Fantastic! Tottaly enjoy it!"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Lazar",
+      "description": "Smuggling illegals into Europe, Lazar will be facing an impossible choice.",
+      "image": "./images/movies/Lazar.png",
+      "release_date": "30/11/2016",
+      "country": [
+        "North Macedonia",
+        "Croatia",
+        "Bulgaria",
+        "France"
+      ],
+      "duration": "1:38:00",
+      "category": "Movies",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Triler"
+      ],
+      "director": [
+        "Svetozar Ristovski"
+      ],
+      "writers": [
+        "Svetozar Ristovski",
+        "Grace Lea Troje"
+      ],
+      "producers": [
+        "Guilaume De Seile",
+        "Svetozar Ristovski",
+        "Kiril Kirilov",
+        "Kornelija Ristovska",
+        "Suza Horvat",
+        "Galina Toneva"
+      ],
+      "cast": [
+        "Vedran Zivolic",
+        "Dejan Lilich",
+        "Natasha Petrovic"
+      ],
+      "editing": [
+        "Benoit Delbove",
+        "Atanas Georgiev"
+      ],
+      "cinematography": [
+        "Dejan Dimeski"
+      ],
+      "costume_design": [
+        "Nevena Caklovic",
+        "Katarina Kolimbatovic"
+      ],
+      "video": "link to video",
+      "rating": 5,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 5,
+          "comment": "Good!"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Senki",
+      "description": "A horrendous car-crash puts a young doctor in contact with the souls of the dead. The spirits have an important message and in order to meet their demands, he will have to look within.",
+      "image": "./images/movies/Senki.png",
+      "release_date": "02/11/2007",
+      "country": [
+        "North Macedonia",
+        "Croatia",
+        "Bulgaria",
+        "France"
+      ],
+      "duration": "2:10:00",
+      "category": "Movies",
+      "genres": [
+        "Mistery",
+        "Triler"
+      ],
+      "director": [
+        "Milcho Manchevski"
+      ],
+      "writers": [
+        "Milcho Mancchevski"
+      ],
+      "producers": [
+        "Dimitar Gochev",
+        "Nermin Gladers",
+        "Mariela Besuievsky",
+        "Gerrardo Herrero",
+        "Amedeo Pagani",
+        "Milcho Manchevski"
+      ],
+      "cast": [
+        "Borche Nasev",
+        "Vesna Stanojevska",
+        "sabina Ajrula"
+      ],
+      "editing": [
+        "Marty Levenstein",
+        "David Ray"
+      ],
+      "cinematography": [
+        "Fabio Cianchetti"
+      ],
+      "costume_design": [
+        "Elisabetta Montaldo"
+      ],
+      "video": "link to video",
+      "rating": 6,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 6,
+          "comment": "Good!"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "The Liberation of Skopje",
+      "description": "During WWII, a young boy, Zoran, witnesses the horrors and atrocities in German-occupied Skopje. At the same time, his father is fighting the partisans and his mother falls in love with a German.",
+      "image": "./images/movies/TheLiberationOfSkopje.png",
+      "release_date": "12/09/2016",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "1:50:00",
+      "category": "Movies",
+      "genres": [
+        "War",
+        "Drama"
+      ],
+      "director": [
+        "Danilo Sherbedzija",
+        "Rade Sherbedzija"
+      ],
+      "writers": [
+        "Dushan Jovanovic",
+        "Rade Sherbedzija"
+      ],
+      "producers": [
+        "Vladimir Atanasov",
+        "Danilo Sherbedzija",
+        "Aleksandar Popovski",
+        "Sem Tylor"
+      ],
+      "cast": [
+        "Rade Sherbedzija",
+        "Mikko Nousianien",
+        "Lucia Sherbedzija"
+      ],
+      "editing": [
+        "Nicolas Gaster"
+      ],
+      "cinematography": [
+        "Dejan Dimeski"
+      ],
+      "costume_design": [
+        "Zheljka Franulovic"
+      ],
+      "video": "link to video",
+      "rating": 6,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 6,
+          "comment": "Very good!"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "The Man with movie camera ",
+      "description": "Part documentary and part cinematic art, this film follows a city in the 1920s Soviet Union throughout the day, from morning to night. Directed by Dziga Vertov, with a variety of complex and innovative camera shots, the film depicts scenes of ordinary daily life in Russia.",
+      "image": "./images/movies/TheManInTheMovieCameraPoster.png",
+      "release_date": "27/09/2017",
+      "country": [
+        "North Macedonia",
+        "Italy"
+      ],
+      "duration": "0:33:00",
+      "category": "Movies",
+      "genres": [
+        "Short",
+        "History",
+        "Horror",
+        "Documentary"
+      ],
+      "director": [
+        "Michelle De Angelis"
+      ],
+      "writers": [
+        "Michelle De Angelis"
+      ],
+      "producers": [
+        "Mattea Puelo",
+        "Svetozar Ristovski"
+      ],
+      "cast": [
+        "Paolo Tirestino",
+        "Maurizio Mateo Merli",
+        "Sophie Kiriakidou"
+      ],
+      "editing": [
+        "Atanas Georgiev"
+      ],
+      "cinematography": [
+        "Ezio Gamba"
+      ],
+      "costume_design": [
+        "Franceska Cibischino"
+      ],
+      "video": "link to video",
+      "rating": 0,
+      "reviews": []
+    },
+    {
+      "id": "11",
+      "title": "Bal-Kan-Kan",
+      "description": "A Macedonian military deserter and his Italian blood-brother are searching for a dead grandmother wrapped up in a stolen carpet, all over the Balkan's criminal underworld.",
+      "image": "./images/movies/Balkankan.png",
+      "release_date": "11/10/2005",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "1:29:00",
+      "category": "Movies",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "director": [
+        "Darko Mitrevski"
+      ],
+      "writers": [
+        "Darko Mitrevski"
+      ],
+      "producers": [
+        "Loris Curci",
+        "Darko Mitrevski",
+        "Robert Naskov",
+        "Allesandro Verdecchi",
+        "Guanluca Curci"
+      ],
+      "cast": [
+        "Vlado Jovanovski",
+        "Adolfo Margiotta",
+        "Zvezda Angelovska",
+        "Toni Mihajlovski"
+      ],
+      "editing": [
+        "Giacobbe Gamberini"
+      ],
+      "cinematography": [
+        "Suki Medencevic"
+      ],
+      "costume_design": [
+        "Zaklina Krstevska"
+      ],
+      "video": "link to video",
+      "rating": 7,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "Very good, I love this movie!"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Balkanska Medza",
+      "description": "After the NATO bombing of Yugoslavia in 1999, the Yugoslav army pulls out of Kosovo region, leaving Serbian people at the mercy of the Albanian UCK terrorists. A small band of soldiers must take over the Slatina airport, and hold it until the Russian peacekeepers arrive.",
+      "image": "./images/movies/BalkanskaMedza.png",
+      "release_date": "29/03/2019",
+      "country": [
+        "Serbia",
+        "Russia"
+      ],
+      "duration": "02:10:00",
+      "category": "Movies",
+      "genres": [
+        "Action",
+        "War"
+      ],
+      "director": [
+        "Andrey Volgin"
+      ],
+      "writers": [
+        "Andrey Anaykin",
+        "Ivan Naumov",
+        "NaumovNatalya Nazarova"
+      ],
+      "producers": [
+        "Milosh Bukovic",
+        "Vadim Byrkin"
+      ],
+      "cast": [
+        "Anton Pampushnyy",
+        "Milena Radulovic",
+        "Gosha Kutsenko",
+        "Ravshana Kurkova"
+      ],
+      "editing": [
+        "Andrey Melnikov"
+      ],
+      "cinematography": [
+        "Vyacheslav Lisnevskiy"
+      ],
+      "costume_design": [
+        "Milica Kolaric"
+      ],
+      "video": "link to video",
+      "rating": 6,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 6,
+          "comment": "Good."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Makedonska krvava svadba",
+      "description": "The film is the story of girl Cveta who was abducted by the Ottoman bey and taken away in his harem. Bey is trying to embrace Islam, but its persistence, and its neighbors led beloved Spasa, and beloved local priest, assisted by diplomats of the great powers manage to free themselves. On the day of her wedding comes Bey with his army to try to get it back.",
+      "image": "./images/movies/MakedonskaKrvavaSvadba.png",
+      "release_date": "23/12/1967",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "01:43:00",
+      "category": "Movies",
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Trajche Popov"
+      ],
+      "writers": [
+        "Slavko Janevski",
+        "Vojdan Cernodrinski"
+      ],
+      "producers": [
+        "Blagoja Angelovski"
+      ],
+      "cast": [
+        "Risto Shishkov",
+        "Vera Cukic",
+        "Zafir Hadzimanov"
+      ],
+      "editing": [
+        "Vangel Laki Cemcev"
+      ],
+      "cinematography": [
+        "Kiro Bilbilovski"
+      ],
+      "costume_design": [
+        "Rada Petrova"
+      ],
+      "video": "link to video",
+      "rating": 8,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 8,
+          "comment": "Great movie also very sad."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Iluzija",
+      "description": "As Macedonia faces its difficult transition, a boy escapes into a world of his own creation.",
+      "image": "./images/movies/Iluzija.png",
+      "release_date": "11/09/2004",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "01:47:00",
+      "category": "Movies",
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Svetozar Ristovski"
+      ],
+      "writers": [
+        "Svetozar Ristovski",
+        "Grace Lea Troje"
+      ],
+      "producers": [
+        "Vasil Ristov",
+        "Svetozar Ristovski",
+        "Harold Tichenor"
+      ],
+      "cast": [
+        "Vlado Jovanovski",
+        "Marko Kovachevich",
+        "Jordancho Cevrevski"
+      ],
+      "editing": [
+        "Atanas Georgiev"
+      ],
+      "cinematography": [
+        "Vladimir Samoilovski"
+      ],
+      "costume_design": [
+        "Zaklina Krstevska"
+      ],
+      "video": "link to video",
+      "rating": 7,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "Great movie."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Medena zemja",
+      "description": "The last female bee-hunter in Europe must save the bees and return the natural balance in Honeyland, when a family of nomadic beekeepers invade her land and threaten her livelihood.",
+      "image": "./images/movies/MedenaZemja.png",
+      "release_date": "28/01/2019",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "01:29:00",
+      "category": "Movies",
+      "genres": [
+        "Drama",
+        "Documentary"
+      ],
+      "director": [
+        "Tamara Krstevska",
+        "Ljubomir Stefanov"
+      ],
+      "writers": [
+        "Tamara Krstevska",
+        "Ljubomir Stefanov"
+      ],
+      "producers": [
+        "Atanas Georgiev",
+        "Kornelija Ristovska",
+        "Marijana Shushlevska",
+        "Ljubomir Stefanov"
+      ],
+      "cast": [
+        "Hatidze Muratova",
+        "Nafize Muratova",
+        "Hussein Sam"
+      ],
+      "editing": [
+        "Atanas Georgiev"
+      ],
+      "cinematography": [
+        "Fejmi Daut",
+        "Samir Ljuma"
+      ],
+      "costume_design": [
+        "No info provided"
+      ],
+      "video": "link to video",
+      "rating": 8,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 8,
+          "comment": "Excellent movie."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Tattoo",
+      "description": "After a quarrel with his wife, a man leaves their apartment with one suitcase only. Having slept in a train station, the police legitimates him and found him suspicious. Soon he'll find himself locked in a prison with several other, mostly innocent people. The true horror begins only then.",
+      "image": "./images/movies/Tetoviranje.png",
+      "release_date": "09/1991",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "02:12:00",
+      "category": "Movies",
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Stole Popov"
+      ],
+      "writers": [
+        "Mirko Kovach",
+        "Zhivojin Pavlovic"
+      ],
+      "producers": [
+        "Stevan Acevski",
+        "Mile Arsovski",
+        "Panche Mizimakov",
+        "Zoran Risteski"
+      ],
+      "cast": [
+        "Meto Jovanovski",
+        "Liljana Medjesi",
+        "Stojan Stole Arandjelovic"
+      ],
+      "editing": [
+        "Vangel Laki Cemcev"
+      ],
+      "cinematography": [
+        "Miso Samoilovski"
+      ],
+      "costume_design": [
+        "Zaklina Krstevska"
+      ],
+      "video": "link to video",
+      "rating": 8,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 8,
+          "comment": "Really intresting."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Vrba",
+      "description": "Three women - one medieval, two contemporary - struggle to become mothers. They have not set out to change the world or society, but their struggles with tradition, loyalty, adoption and control over their bodies make them unlikely heroines.",
+      "image": "./images/movies/Vrba.png",
+      "release_date": "19/10/2019",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "01:41:00",
+      "category": "Movies",
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Milcho Manchevski"
+      ],
+      "writers": [
+        "Milcho Manchevski"
+      ],
+      "producers": [
+        "Milcho Manchevski",
+        "Ian Prior"
+      ],
+      "cast": [
+        "Sara Klimovska",
+        "Natalija Teodosieva",
+        "Kamka Tochinovski"
+      ],
+      "editing": [
+        "Nicolas Gaster"
+      ],
+      "cinematography": [
+        "Tamás Dobos"
+      ],
+      "costume_design": [
+        "Zaklina Krstevska",
+        "Györgyi Szakács"
+      ],
+      "video": "link to video",
+      "rating": 7,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "Nice one!"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Second Chance",
+      "description": "Three stories about three women who live in the same building, interwoven to create a kaleidoscopic observation of the experience of being a mother, and the self-sacrifice that one gives to the world by bringing life into it at the same time.",
+      "image": "./images/movies/Zrtva.png",
+      "release_date": "17/14/2019",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "01:19:00",
+      "category": "Movies",
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Marija Dzidzeva"
+      ],
+      "writers": [
+        "Ognen Georgievski"
+      ],
+      "producers": [
+        "Kornelija Ristovska",
+        "Svetozar Ristovski",
+        "Nikolina Vuchetich"
+      ],
+      "cast": [
+        "Dimitar Gjorgjievski",
+        "Deniz Abdula",
+        "Jordancho Cevrevski"
+      ],
+      "editing": [
+        "Blaze Dulje"
+      ],
+      "cinematography": [
+        "Dejan Dimeski"
+      ],
+      "costume_design": [
+        "Zaklina Krstevska"
+      ],
+      "video": "link to video",
+      "rating": 6,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 6,
+          "comment": "Good one!"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "To the Hilt",
+      "description": "Macedonia is a small country, in the heart of the Balkans, which for five centuries was under the yoke of the Ottoman Empire. The action of the film To the Hilt takes place in the years of the general collapse and free fall, after the Macedonian uprising of 1903 which was extinguished in blood.",
+      "image": "./images/movies/ToTheHillt.png",
+      "release_date": "14/09/2014",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "02:45:00",
+      "category": "Movies",
+      "genres": [
+        "Drama",
+        "Action",
+        "History"
+      ],
+      "director": [
+        "Stole Popov"
+      ],
+      "writers": [
+        "Stole Popov",
+        "Goran Stefanovski"
+      ],
+      "producers": [
+        "Vladimir Atanasov",
+        "Jordancho Cevrevski",
+        "Milivoje Dzordzevikj"
+      ],
+      "cast": [
+        "Inti Sraj",
+        "Sahko Kocev",
+        "Martin Jordanovski"
+      ],
+      "editing": [
+        "Atanas Georgiev",
+        "Blagoja Nedelkovski"
+      ],
+      "cinematography": [
+        "Apostol Trpeski"
+      ],
+      "costume_design": [
+        "Emilija Ivanovska Atanasovska"
+      ],
+      "video": "link to video",
+      "rating": 7,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "Like it!"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Ambulance",
+      "description": "Two robbers steal an ambulance after their heist goes awry.",
+      "image": "./images/movies/Ambulance.png",
+      "release_date": "16/03/2022",
+      "country": [
+        "US"
+      ],
+      "duration": "02:16:00",
+      "category": "Movies",
+      "genres": [
+        "Drama",
+        "Action",
+        "Crime"
+      ],
+      "director": [
+        "Michael Bay"
+      ],
+      "writers": [
+        "Chris Fedak",
+        "Laurits Munch-Petersen",
+        "Lars Andreas Pedersen"
+      ],
+      "producers": [
+        "Michael Bay",
+        "Ian Bryce"
+      ],
+      "cast": [
+        "Jake Gyllenhaal",
+        "Yahya Abdul-Mateen II",
+        "Eiza González"
+      ],
+      "editing": [
+        "Doug Brandt",
+        "Pietro Scalia",
+        "Calvin Wimmer"
+      ],
+      "cinematography": [
+        "Roberto De Angelis"
+      ],
+      "costume_design": [
+        "Lisa Lovaas"
+      ],
+      "video": "link to video",
+      "rating": 6,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 6,
+          "comment": "It's ok to watch!"
+        }
+      ]
+    }
+  ],
+  "kids": [
+    {
+      "id": "21",
+      "title": "Busava Azbuka",
+      "description": "Educational series for children about Macedonian literature, culture and tradition, through music, animation, etc...",
+      "image": "./images/movies/BushavaAzbuka.png",
+      "release_date": "1985",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "0:30:00",
+      "category": "Kids",
+      "genres": [
+        "Comedy"
+      ],
+      "director": [
+        "Slobodan Unkovski"
+      ],
+      "writers": [
+        "Goran Stefanovski"
+      ],
+      "producers": [
+        "Milica Ejdus"
+      ],
+      "cast": [
+        "Rade Rogozarov",
+        "Sonja Mihajlova",
+        "Petre Arsovski",
+        "Goce Todorovski"
+      ],
+      "editing": [
+        "Milica Ejdus"
+      ],
+      "cinematography": [
+        "Milica Ejdus"
+      ],
+      "costume_design": [
+        "Georgi Zdravev"
+      ],
+      "video": "link to video",
+      "rating": 9,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 9,
+          "comment": "Fantastic! Tottaly enjoy it!"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Fifi and the Flowertots",
+      "description": "The adventures of gardener Fifi Forget-Me-Not and her other flowertot friends.",
+      "image": "./images/movies/Fifi.png",
+      "release_date": "02/05/2005",
+      "country": [
+        "UK"
+      ],
+      "duration": "0:10:00",
+      "category": "Kids",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "director": [
+        "Tim Harper"
+      ],
+      "writers": [
+        "Rachel Dawson",
+        "Keith Chapman"
+      ],
+      "producers": [
+        "Chris Bowden"
+      ],
+      "cast": [
+        "Jane Horrocks",
+        "Marc Silc",
+        "Nick Wilson",
+        "Joanna Riuz"
+      ],
+      "editing": [
+        "Paul Campbel"
+      ],
+      "cinematography": [
+        "Laura Howie"
+      ],
+      "costume_design": [
+        "Andrea Lord"
+      ],
+      "video": "link to video",
+      "rating": 9,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 9,
+          "comment": "Fantastic! Tottaly enjoy it!"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Nashe Maalo",
+      "description": "Nashe Maalo 'Our Neighborhood' is the first Macedonian children's television program created to promote intercultural understanding and to impart conflict resolution skills pertinent to children's everyday lives.",
+      "image": "./images/movies/NasheMaalo.png",
+      "release_date": "02/05/2002",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "0:26:00",
+      "category": "Kids",
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "director": [
+        "Igor Ivanov Izi"
+      ],
+      "writers": [
+        "Ognen Georgievski",
+        "Krisi Naumovski"
+      ],
+      "producers": [
+        "Ivo Antov",
+        "John Mark"
+      ],
+      "cast": [
+        "Damjan Krstevski",
+        "Tanja Kochovska",
+        "Teuta Ajdini",
+        "Goce Todorovski"
+      ],
+      "editing": [
+        "Blagoja Nedelkovski",
+        "Igor Andreevski"
+      ],
+      "cinematography": [
+        "Brand Ferro"
+      ],
+      "costume_design": [
+        "Marjan Dimchevski"
+      ],
+      "video": "link to video",
+      "rating": 9,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 9,
+          "comment": "Fantastic!!!"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Balkanska Medza",
+      "description": "Nashe Maalo 'Our Neighborhood' is the first Macedonian children's television program created to promote intercultural understanding and to impart conflict resolution skills pertinent to children's everyday lives.",
+      "image": "./images/movies/NasheMaalo.png",
+      "release_date": "02/05/2002",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "0:26:00",
+      "category": "Kids",
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "director": [
+        "Igor Ivanov Izi"
+      ],
+      "writers": [
+        "Ognen Georgievski",
+        "Krisi Naumovski"
+      ],
+      "producers": [
+        "Ivo Antov",
+        "John Mark"
+      ],
+      "cast": [
+        "Damjan Krstevski",
+        "Tanja Kochovska",
+        "Teuta Ajdini",
+        "Goce Todorovski"
+      ],
+      "editing": [
+        "Blagoja Nedelkovski",
+        "Igor Andreevski"
+      ],
+      "cinematography": [
+        "Brand Ferro"
+      ],
+      "costume_design": [
+        "Marjan Dimchevski"
+      ],
+      "video": "link to video",
+      "rating": 9,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 9,
+          "comment": "Fantastic!!!"
+        }
+      ]
+    }
+  ],
+  "series": [
+    {
+      "id": "25",
+      "title": "Bistra Voda",
+      "description": "After forty-five years of emigration to Canada, Alexander returns to Macedonia, to his hometown of Skopje. In 1977, he is seventeen years old and Macedonia is part of communist Yugoslavia. Alexander and his childhood best friend, raised in anti-communist families, decide in high school where they learn to spread leaflets against the communist party and the state.",
+      "image": "./images/movies/BistraVoda.png",
+      "release_date": "05/03/2023",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "01:00:00",
+      "category": "series",
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Jani Bojadzi"
+      ],
+      "writers": [
+        "Jani Bojadzi",
+        "Mona Paskalova"
+      ],
+      "producers": [
+        "Jani Bojadzi",
+        "Dejan Miloshevski"
+      ],
+      "cast": [
+        "Simeon Moni Damevski",
+        "Keti Doncevska-Ilic",
+        "TMeto Jovanovski",
+        "Vlado Jovanovski"
+      ],
+      "editing": [
+        "Blazhe Dulev",
+        "David Dulev"
+      ],
+      "cinematography": [
+        "Kristijan Karadjovski",
+        "Marjan Petkovski"
+      ],
+      "costume_design": [
+        "Marija Dimishkoska",
+        "Nela Todorovska"
+      ],
+      "video": "link to video",
+      "rating": 7,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "Nice one!"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Zona Zamfirova",
+      "description": "The plot follows the story of Zona Zamfirova (Katarina Radivojevic), a local rich man's daughter, and the vicissitudes of her affair with Mane (Vojin Cetkovic), an ordinary goldsmith. As it was undesirable for the daughter of a rich man to marry a craftsman, the two are at first divided, with the possibility of Zona marrying the son of other rich people, Manulac.",
+      "image": "./images/movies/ZonaZamfirova.png",
+      "release_date": "31/10/2002",
+      "country": [
+        "Serbia"
+      ],
+      "duration": "01:44:00",
+      "category": "series",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "director": [
+        "Zdravko Sotra"
+      ],
+      "writers": [
+        "Zdravko Sotra",
+        "Stevan Sremac"
+      ],
+      "producers": [
+        "Miroslav Mitic",
+        "Dragana Teshich"
+      ],
+      "cast": [
+        "Vojin Cvetkovikj",
+        "Katarina Radivojevich",
+        "Dragan Nikolic"
+      ],
+      "editing": [
+        "Petar Putnikovic"
+      ],
+      "cinematography": [
+        "Veselko Krcmar"
+      ],
+      "costume_design": [
+        "Nada Todorovic"
+      ],
+      "video": "link to video",
+      "rating": 7,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "I really liked it!"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Juzni Vetar",
+      "description": "A young member of an underground gang in Belgrade puts himself and his family in danger when he crosses a mafia leader who works for the chief of police.",
+      "image": "./images/movies/JuzniVetarSerija.png",
+      "release_date": "25/08/2018",
+      "country": [
+        "Serbia"
+      ],
+      "duration": "00:45:00",
+      "category": "series",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Milosh Avramovic"
+      ],
+      "writers": [
+        "Milosh Avramovic",
+        "Petar Mihajlovic"
+      ],
+      "producers": [
+        "Milosh Avramovic",
+        "Milosh Bikovic",
+        "Zoran Cvetanovic",
+        "Tatjana Zezelj Djokovic",
+        "Miodrag Radojnic"
+      ],
+      "cast": [
+        "Milosh Bikovic",
+        "Miodrag Radonjic",
+        "Dragan Bjelogrlic"
+      ],
+      "editing": [
+        "Milena Predic",
+        "Lazar Predojev"
+      ],
+      "cinematography": [
+        "Ivan Kostic"
+      ],
+      "costume_design": [
+        "Jelena Djordzevic"
+      ],
+      "video": "link to video",
+      "rating": 7,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "Fantastic! Tottaly enjoy it!"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Bistra Voda",
+      "description": "After forty-five years of emigration to Canada, Alexander returns to Macedonia, to his hometown of Skopje. In 1977, he is seventeen years old and Macedonia is part of communist Yugoslavia. Alexander and his childhood best friend, raised in anti-communist families, decide in high school where they learn to spread leaflets against the communist party and the state.",
+      "image": "./images/movies/BistraVoda.png",
+      "release_date": "05/03/2023",
+      "country": [
+        "North Macedonia"
+      ],
+      "duration": "01:00:00",
+      "category": "series",
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Jani Bojadzi"
+      ],
+      "writers": [
+        "Jani Bojadzi",
+        "Mona Paskalova"
+      ],
+      "producers": [
+        "Jani Bojadzi",
+        "Dejan Miloshevski"
+      ],
+      "cast": [
+        "Simeon Moni Damevski",
+        "Keti Doncevska-Ilic",
+        "TMeto Jovanovski",
+        "Vlado Jovanovski"
+      ],
+      "editing": [
+        "Blazhe Dulev",
+        "David Dulev"
+      ],
+      "cinematography": [
+        "Kristijan Karadjovski",
+        "Marjan Petkovski"
+      ],
+      "costume_design": [
+        "Marija Dimishkoska",
+        "Nela Todorovska"
+      ],
+      "video": "link to video",
+      "rating": 7,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "Nice one!"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Zona Zamfirova",
+      "description": "The plot follows the story of Zona Zamfirova (Katarina Radivojevic), a local rich man's daughter, and the vicissitudes of her affair with Mane (Vojin Cetkovic), an ordinary goldsmith. As it was undesirable for the daughter of a rich man to marry a craftsman, the two are at first divided, with the possibility of Zona marrying the son of other rich people, Manulac.",
+      "image": "./images/movies/ZonaZamfirova.png",
+      "release_date": "31/10/2002",
+      "country": [
+        "Serbia"
+      ],
+      "duration": "01:44:00",
+      "category": "series",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "director": [
+        "Zdravko Sotra"
+      ],
+      "writers": [
+        "Zdravko Sotra",
+        "Stevan Sremac"
+      ],
+      "producers": [
+        "Miroslav Mitic",
+        "Dragana Teshich"
+      ],
+      "cast": [
+        "Vojin Cvetkovikj",
+        "Katarina Radivojevich",
+        "Dragan Nikolic"
+      ],
+      "editing": [
+        "Petar Putnikovic"
+      ],
+      "cinematography": [
+        "Veselko Krcmar"
+      ],
+      "costume_design": [
+        "Nada Todorovic"
+      ],
+      "video": "link to video",
+      "rating": 7,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "I really liked it!"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Juzni Vetar",
+      "description": "A young member of an underground gang in Belgrade puts himself and his family in danger when he crosses a mafia leader who works for the chief of police.",
+      "image": "./images/movies/JuzniVetarSerija.png",
+      "release_date": "25/08/2018",
+      "country": [
+        "Serbia"
+      ],
+      "duration": "00:45:00",
+      "category": "series",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Milosh Avramovic"
+      ],
+      "writers": [
+        "Milosh Avramovic",
+        "Petar Mihajlovic"
+      ],
+      "producers": [
+        "Milosh Avramovic",
+        "Milosh Bikovic",
+        "Zoran Cvetanovic",
+        "Tatjana Zezelj Djokovic",
+        "Miodrag Radojnic"
+      ],
+      "cast": [
+        "Milosh Bikovic",
+        "Miodrag Radonjic",
+        "Dragan Bjelogrlic"
+      ],
+      "editing": [
+        "Milena Predic",
+        "Lazar Predojev"
+      ],
+      "cinematography": [
+        "Ivan Kostic"
+      ],
+      "costume_design": [
+        "Jelena Djordzevic"
+      ],
+      "video": "link to video",
+      "rating": 7,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "Fantastic! Tottaly enjoy it!"
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "id": "30",
+      "title": "Куќа на среќата",
+      "image": "./images/movies/KukjaNaSrekjata.png",
+      "category": "podcasts",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+      "video": "link to video",
+      "rating": 7,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 7,
+          "comment": "I really liked it!"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Имам нешто да ти кажам",
+      "image": "./images/movies/ImamNesto.png",
+      "category": "podcasts",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+      "video": "link to video",
+      "rating": 8,
+      "reviews": [
+        {
+          "user_id": 2001,
+          "rating": 8,
+          "comment": "Great!"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Имам нешто да ти кажам",
+      "image": "./images/movies/Megafon.png",
+      "category": "podcasts",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+      "video": "link to video",
+      "rating": 0,
+      "reviews": []
+    },
+    {
+      "id": "33",
+      "title": "Објективно",
+      "image": "./images/movies/Objektivno.png",
+      "category": "podcasts",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+      "video": "link to video",
+      "rating": 0,
+      "reviews": []
+    },
+    {
+      "id": "34",
+      "title": "Подкаст",
+      "image": "./images/movies/Podcast.png",
+      "category": "podcasts",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+      "video": "link to video",
+      "rating": 0,
+      "reviews": []
+    },
+    {
+      "id": "35",
+      "title": "Репертоар",
+      "image": "./images/movies/Repertoar.png",
+      "category": "podcasts",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+      "video": "link to video",
+      "rating": 0,
+      "reviews": []
+    },
+    {
+      "id": "36",
+      "title": "Сара Подкаст",
+      "image": "./images/movies/Sara.png",
+      "category": "podcasts",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+      "video": "link to video",
+      "rating": 0,
+      "reviews": []
+    }
+  ],
+  "categories": {
+    "Movies": "Movies",
+    "Series": "Series",
+    "Podcatsts": "Podcatsts",
+    "Kids": "Kids"
+  },
+  "users": {
+    "artists": [
+      {
+        "id": 1000,
+        "username": "artist2",
+        "fullname": "Igor Dzambazov",
+        "email": "artist2@example.com",
+        "type": "artist",
+        "bio": "",
+        "interests": "",
+        "tutorial": false,
+        "subscription_type": "Free",
+        "cultures": "macedonian",
+        "created_at": "01.05.2023",
+        "favuritesCategories": [],
+        "favouriteMovies": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "viewers": [
+      {
+        "id": 2000,
+        "username": "viewer1",
+        "fullname": "John Doe",
+        "email": "viewer1@example.com",
+        "type": "viewer",
+        "bio": "",
+        "interests": "",
+        "tutorial": false,
+        "subscription_type": "Free",
+        "cultures": "serbian",
+        "created_at": "30.04.2023",
+        "favuritesCategories": [],
+        "favouriteMovies": [
+          "23",
+          "22",
+          "15"
+        ]
+      },
+      {
+        "id": 2001,
+        "username": "viewer2",
+        "fullname": "Mike Doe",
+        "email": "viewer2@example.com",
+        "type": "viewer",
+        "bio": "",
+        "interests": "",
+        "tutorial": false,
+        "subscription_type": "Free",
+        "cultures": "macedonian",
+        "created_at": "01.05.2023",
+        "favuritesCategories": [],
+        "favouriteMovies": [
+          "1",
+          "20"
+        ]
+      }
+    ]
+  }
+}
